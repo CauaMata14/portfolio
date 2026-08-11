@@ -27,7 +27,7 @@ export const heroSnippets = [
 ]
 
 export const skills = [
-  { group: 'Linguagens', items: ['JavaScript', 'TypeScript', 'HTML', 'CSS'] },
+  { group: 'Hard Skills', items: ['JavaScript', 'TypeScript', 'HTML', 'CSS'] },
   { group: 'Frameworks', items: ['Vue', 'React', 'Nuxt', 'Tailwind CSS'] },
   { group: 'Ferramentas', items: ['Vite', 'Git', 'Figma', 'Node.js'] },
 ]
