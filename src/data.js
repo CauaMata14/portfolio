@@ -34,12 +34,12 @@ export const skills = [
 
 export const projects = [
   {
-    title: 'Projeto Um',
+    title: 'Controle de Gastos Pessoais',
     description:
-      'Breve descrição do que o projeto faz e qual problema ele resolve. Foque no impacto, não só na tecnologia.',
-    tech: ['Vue', 'Tailwind', 'Vite'],
-    url: '#',
-    repo: '#',
+      'Aplicação full-stack para cadastrar receitas e despesas, categorizar e visualizar gráficos de gastos por categoria e por mês, com filtro por período.',
+    tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Recharts'],
+    url: 'https://controle-de-gastos.vercel.app',
+    repo: 'https://github.com/CauaMata14/controle-de-gastos',
   },
   {
     title: 'Projeto Dois',
