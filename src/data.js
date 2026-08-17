@@ -38,7 +38,7 @@ export const projects = [
     description:
       'Aplicação full-stack para cadastrar receitas e despesas, categorizar e visualizar gráficos de gastos por categoria e por mês, com filtro por período.',
     tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Recharts'],
-    url: 'https://controle-de-gastos.vercel.app',
+    url: 'https://controle-de-gastos-esd9.vercel.app/',
     repo: 'https://github.com/CauaMata14/controle-de-gastos',
   },
   {
