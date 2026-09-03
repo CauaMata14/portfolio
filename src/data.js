@@ -38,16 +38,16 @@ export const projects = [
     description:
       'Aplicação full-stack para cadastrar receitas e despesas, categorizar e visualizar gráficos de gastos por categoria e por mês, com filtro por período.',
     tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Recharts'],
-    url: 'https://controle-de-gastos.vercel.app',
+    url: 'https://controle-de-gastos-esd9.vercel.app/',
     repo: 'https://github.com/CauaMata14/controle-de-gastos',
   },
   {
-    title: 'Projeto Dois',
+    title: 'Sistema de Chamados de TI',
     description:
-      'Breve descrição do segundo projeto. Pode citar um desafio técnico interessante que você resolveu.',
-    tech: ['React', 'TypeScript'],
-    url: '#',
-    repo: '#',
+      'Plataforma de abertura e gestão de chamados de suporte, com autenticação JWT (refresh token rotativo), permissões diferentes para usuário e técnico, timeline de eventos por chamado e notificações automáticas por e-mail.',
+    tech: ['Next.js', 'TypeScript', 'Express', 'MongoDB', 'Tailwind CSS'],
+    url: 'https://sistema-chamados-ti-chi.vercel.app',
+    repo: 'https://github.com/CauaMata14/sistema-chamados-ti',
   },
   {
     title: 'Projeto Três',
