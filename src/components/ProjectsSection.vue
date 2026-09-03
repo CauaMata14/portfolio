@@ -18,7 +18,10 @@ import { projects } from '../data.js'
             </div>
           </div>
           <p class="card__desc">{{ project.description }}</p>
-          <ul class="card__tech mono">
+          <p v-if="project.emConstrucao" class="card__wip mono">
+            Em construção<span class="dots"><span>.</span><span>.</span><span>.</span></span>
+          </p>
+          <ul v-else class="card__tech mono">
             <li v-for="t in project.tech" :key="t">{{ t }}</li>
           </ul>
         </article>
@@ -110,5 +113,42 @@ import { projects } from '../data.js'
   background: var(--accent-soft);
   padding: 0.25rem 0.6rem;
   border-radius: 4px;
+}
+
+.card__wip {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+
+.dots span {
+  animation: dots-blink 1.4s infinite;
+  animation-fill-mode: both;
+}
+
+.dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes dots-blink {
+  0%,
+  80%,
+  100% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dots span {
+    animation: none;
+    opacity: 1;
+  }
 }
 </style>

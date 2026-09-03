@@ -53,7 +53,8 @@ export const projects = [
     title: 'Projeto Três',
     description:
       'Breve descrição do terceiro projeto. Projetos pessoais, freelas ou desafios de estudo também valem.',
-    tech: ['JavaScript', 'CSS'],
+    tech: [],
+    emConstrucao: true,
     url: '#',
     repo: '#',
   },
