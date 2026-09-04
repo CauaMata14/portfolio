@@ -3,13 +3,14 @@
 
 export const profile = {
   name: 'Cauã Mata',
-  role: 'Front-end Developer',
+  role: 'Full Stack Developer',
   location: 'Brasília, Brasil',
-  tagline: 'Construo interfaces rápidas, acessíveis e bem cuidadas nos detalhes.',
-  bio: `Sou desenvolvedor(a) front-end com foco em criar experiências de interface
-  limpas e funcionais. Gosto de transformar ideias em produtos usáveis, prestando
-  atenção tanto na performance quanto nos pequenos detalhes que fazem diferença
-  para quem usa.`,
+  tagline: 'Construo produtos completos, da interface ao banco de dados, rápidos e bem cuidados nos detalhes.',
+  bio: `Sou desenvolvedor(a) full stack, atuando da interface ao banco de dados.
+  Já projetei APIs, modelei banco de dados e implementei autenticação em mais de
+  um projeto, com stacks diferentes. Gosto de transformar ideias em produtos
+  usáveis, prestando atenção tanto na performance quanto nos pequenos detalhes
+  que fazem diferença para quem usa.`,
   email: 'cauamta141003@gmail.com',
   resumeUrl: '#',
   social: {
@@ -27,9 +28,9 @@ export const heroSnippets = [
 ]
 
 export const skills = [
-  { group: 'Hard Skills', items: ['JavaScript', 'TypeScript', 'HTML', 'CSS'] },
-  { group: 'Frameworks', items: ['Vue', 'React', 'Nuxt', 'Tailwind CSS'] },
-  { group: 'Ferramentas', items: ['Vite', 'Git', 'Figma', 'Node.js'] },
+  { group: 'Front-End', items: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue', 'Nuxt', 'HTML', 'CSS', 'Tailwind CSS'] },
+  { group: 'Back-End', items: ['Node.js', 'Express', 'Prisma', 'PostgreSQL', 'MongoDB', 'JWT'] },
+  { group: 'Ferramentas', items: ['Vite', 'Git', 'Figma'] },
 ]
 
 export const projects = [
@@ -44,7 +45,7 @@ export const projects = [
   {
     title: 'Sistema de Chamados de TI',
     description:
-      'Plataforma de abertura e gestão de chamados de suporte, com autenticação JWT (refresh token rotativo), permissões diferentes para usuário e técnico, timeline de eventos por chamado e notificações automáticas por e-mail.',
+      'Plataforma de abertura e gestão de chamados de suporte, com autenticação JWT (refresh token rotativo), permissões diferentes para usuário e técnico e timeline de eventos por chamado.',
     tech: ['Next.js', 'TypeScript', 'Express', 'MongoDB', 'Tailwind CSS'],
     url: 'https://sistema-chamados-ti-chi.vercel.app',
     repo: 'https://github.com/CauaMata14/sistema-chamados-ti',
