@@ -25,7 +25,7 @@ export const heroSnippets = [
   "const dev = { stack: 'full-stack' }",
   "app.post('/api/chamados', authenticate)",
   "model User { role Role @default(USER) }",
-  "export default Voce",
+  "git commit -m 'vamos conversar'",
 ]
 
 export const skills = [
