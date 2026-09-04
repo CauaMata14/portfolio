@@ -22,8 +22,9 @@ export const profile = {
 
 // Trechos de "código" usados no efeito de digitação do hero.
 export const heroSnippets = [
-  "const dev = { foco: 'front-end' }",
-  "function criar(ideia) { return interface }",
+  "const dev = { stack: 'full-stack' }",
+  "app.post('/api/chamados', authenticate)",
+  "model User { role Role @default(USER) }",
   "export default Voce",
 ]
 
